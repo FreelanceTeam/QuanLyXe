@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77920B41-4874-4282-B598-6850ED1AB294}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VMS.UI</RootNamespace>
+    <AssemblyName>VMS.UI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\IAddEditGiayDangKiemChiTietView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayDangKiemView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayDangKyChiTietView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayDangKyView.cs" />
+    <Compile Include="Interfaces\IAddEditPhuTungView.cs" />
+    <Compile Include="Interfaces\IAddEditVehicleView.cs" />
+    <Compile Include="Interfaces\IMainView.cs" />
+    <Compile Include="Presenters\AddEditGiayDangKiemChiTietPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayDangKiemPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayDangKyChiTietPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayDangKyPresenter.cs" />
+    <Compile Include="Presenters\AddEditPhuTungPresenter.cs" />
+    <Compile Include="Presenters\AddEditVehiclePresenter.cs" />
+    <Compile Include="Views\AddEditGiayDangKiemChiTietView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKiemChiTietView.Designer.cs">
+      <DependentUpon>AddEditGiayDangKiemChiTietView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKiemView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKiemView.Designer.cs">
+      <DependentUpon>AddEditGiayDangKiemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKyChiTietView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKyChiTietView.Designer.cs">
+      <DependentUpon>AddEditGiayDangKyChiTietView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayDangKyView.Designer.cs">
+      <DependentUpon>AddEditGiayDangKyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditPhuTungView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditPhuTungView.Designer.cs">
+      <DependentUpon>AddEditPhuTungView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditVehicleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditVehicleView.Designer.cs">
+      <DependentUpon>AddEditVehicleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImageViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ImageViewer.Designer.cs">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presenters\MainPresenter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\AddEditGiayDangKiemChiTietView.resx">
+      <DependentUpon>AddEditGiayDangKiemChiTietView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayDangKiemView.resx">
+      <DependentUpon>AddEditGiayDangKiemView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayDangKyChiTietView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddEditGiayDangKyChiTietView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayDangKyView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddEditGiayDangKyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditPhuTungView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddEditPhuTungView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditVehicleView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddEditVehicleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ImageViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VMS.BLL\VMS.BLL.csproj">
+      <Project>{D969E1D2-4081-48EA-9D92-630030150BF6}</Project>
+      <Name>VMS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VMS.DAL\VMS.DAL.csproj">
+      <Project>{29C19EE1-A0DB-402F-8582-457F19C2EF9F}</Project>
+      <Name>VMS.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VMS.Helper\VMS.Helper.csproj">
+      <Project>{7B7FE24A-7312-4619-840C-04EB7797E83D}</Project>
+      <Name>VMS.Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

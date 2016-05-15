@@ -1,0 +1,3 @@
+- Database: VMS\Database
+- Ð?i connectionString: VMS\VehicleManagementSystem\VMS.DAL\DataFactory.cs
+- Ch?y SQL scripts: VMS\SQL scripts
