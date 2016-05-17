@@ -7,29 +7,29 @@ namespace VMS.UI.Presenters
     public class AddEditPhuTungPresenter
     {
         private readonly IAddEditPhuTungView _addEditPhuTungView;
-        private readonly VehicleBLL _vehicleBLL;
+        private readonly PhuTungBLL _contextBLL;
         public bool IsNew = true;
         public phu_tung CurrentPhuTung = null;
         public string MaXe;
         public AddEditPhuTungPresenter(IAddEditPhuTungView addEditPhuTungView)
         {
             _addEditPhuTungView = addEditPhuTungView;
-            _vehicleBLL = new VehicleBLL();
+            _contextBLL = new PhuTungBLL();
         }
 
         public void LoadPhuTung()
         {
-            _addEditPhuTungView.LoadTaiSanMMTB(_vehicleBLL.GetTaiSanMMTB());
+            _addEditPhuTungView.LoadTaiSanMMTB(_contextBLL.GetTaiSanMMTB());
         }
 
-        public bool SavePhuTung(phu_tung phuTung)
+        public bool Save(phu_tung entity)
         {
-            return _vehicleBLL.SavePhuTung(phuTung, IsNew);
+            return _contextBLL.Save(entity, IsNew);
         }
 
         public bool CheckPhuTungIfExisted(string ma_xe, string ma_tai_san)
         {
-            return _vehicleBLL.HasPhuTungExisted(ma_xe, ma_tai_san);
+            return _contextBLL.HasExisted(ma_xe, ma_tai_san);
         }
     }
 }

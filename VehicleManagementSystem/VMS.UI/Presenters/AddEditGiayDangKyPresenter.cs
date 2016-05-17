@@ -7,29 +7,29 @@ namespace VMS.UI.Presenters
     public class AddEditGiayDangKyPresenter
     {
         private readonly IAddEditGiayDangKyView _addEditGiayDangKyView;
-        private readonly VehicleBLL _vehicleBLL;
+        private readonly GiayDangKyBLL _contextBLL;
         public bool IsNew = true;
         public giay_dang_ky CurrentGiayDangKy = null;
         public string MaXe;
         public AddEditGiayDangKyPresenter(IAddEditGiayDangKyView addEditGiayDangKyView)
         {
             _addEditGiayDangKyView = addEditGiayDangKyView;
-            _vehicleBLL = new VehicleBLL();
+            _contextBLL = new GiayDangKyBLL();
         }
 
         public void LoadDonVi()
         {
-            _addEditGiayDangKyView.LoadDonVi(_vehicleBLL.GetDonVi());
+            _addEditGiayDangKyView.LoadDonVi(_contextBLL.GetDonVi());
         }
 
-        public bool SaveGiayDangKy(giay_dang_ky gdk)
+        public bool Save(giay_dang_ky entity)
         {
-            return _vehicleBLL.SaveGiayDangKy(gdk, IsNew);
+            return _contextBLL.Save(entity, IsNew);
         }
 
-        public bool CheckGiayDangKyIfExisted(string ma_giay)
+        public bool CheckIfExisted(string ma_giay)
         {
-            return _vehicleBLL.HasGiayDangKyExisted(ma_giay);
+            return _contextBLL.HasExisted(ma_giay);
         }
     }
 }

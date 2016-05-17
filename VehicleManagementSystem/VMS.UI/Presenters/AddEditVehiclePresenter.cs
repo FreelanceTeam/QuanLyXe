@@ -7,28 +7,28 @@ namespace VMS.UI.Presenters
     public class AddEditVehiclePresenter
     {
         private readonly IAddEditVehicleView _addEditVehicleView;
-        private readonly VehicleBLL _vehicleBLL;
+        private readonly TaiSanXeBLL _contextBLL;
         public bool IsNew = true;
         public tai_san_xe CurrentVehicle = null;
         public AddEditVehiclePresenter(IAddEditVehicleView addEditVehicleView)
         {
             _addEditVehicleView = addEditVehicleView;
-            _vehicleBLL = new VehicleBLL();
+            _contextBLL = new TaiSanXeBLL();
         }
 
         public void LoadLoaiTaiSanXe()
         {
-           _addEditVehicleView.LoadLoaiTaiSanXe(_vehicleBLL.GetLoaiTaiSanXe());
+           _addEditVehicleView.LoadLoaiTaiSanXe(_contextBLL.GetLoaiTaiSanXe());
         }
 
-        public bool SaveVehicle(tai_san_xe tsx)
+        public bool Save(tai_san_xe entity)
         {
-            return _vehicleBLL.SaveVehicle(tsx, IsNew);
+            return _contextBLL.Save(entity, IsNew);
         }
 
         public bool CheckMaXeIfExisted(string ma_xe)
         {
-            return _vehicleBLL.HasVehicleExisted(ma_xe);
+            return _contextBLL.HasExisted(ma_xe);
         }
 
     }

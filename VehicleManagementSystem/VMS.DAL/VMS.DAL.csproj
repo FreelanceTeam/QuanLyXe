@@ -40,8 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseData.cs" />
+    <Compile Include="BienBanGiaoXeData.cs" />
+    <Compile Include="BienBanThuHoiData.cs" />
     <Compile Include="DataFactory.cs" />
+    <Compile Include="Entity\bao_tri_duong_bo.cs" />
+    <Compile Include="Entity\bao_tri_duong_bo_ct.cs" />
+    <Compile Include="Entity\bien_ban_giao_xe.cs" />
+    <Compile Include="Entity\bien_ban_giao_xe_ct.cs" />
+    <Compile Include="Entity\bien_ban_thu_hoi.cs" />
     <Compile Include="Entity\dm_loai_tai_san.cs" />
+    <Compile Include="Entity\giay_bao_hiem_nhan_su.cs" />
+    <Compile Include="Entity\giay_bao_hiem_nhan_su_ct.cs" />
+    <Compile Include="Entity\giay_bao_hiem_than_xe.cs" />
+    <Compile Include="Entity\giay_bao_hiem_than_xe_ct.cs" />
     <Compile Include="Entity\giay_dang_kiem.cs" />
     <Compile Include="Entity\giay_dang_kiem_ct.cs" />
     <Compile Include="Entity\giay_dang_ky.cs" />
@@ -49,6 +61,12 @@
     <Compile Include="Entity\phu_tung.cs" />
     <Compile Include="Entity\tai_san_mmtb.cs" />
     <Compile Include="Entity\tai_san_xe.cs" />
+    <Compile Include="GiayBaoHiemNhanSuData.cs" />
+    <Compile Include="GiayBaoHiemThanXeData.cs" />
+    <Compile Include="GiayBaoTriDuongBoData.cs" />
+    <Compile Include="GiayDangKiemData.cs" />
+    <Compile Include="GiayDangKyData.cs" />
+    <Compile Include="PhuTungData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaiSanXeData.cs" />
   </ItemGroup>

@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAddEditBienBanGiaoXeChiTietView.cs" />
+    <Compile Include="Interfaces\IAddEditBienBanGiaoXeView.cs" />
+    <Compile Include="Interfaces\IAddEditBienBanThuHoiView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayBaoHiemNhanSuChiTietView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayBaoHiemNhanSuView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayBaoHiemThanXeChiTietView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayBaoHiemThanXeView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayBaoTriDuongBoChiTietView.cs" />
+    <Compile Include="Interfaces\IAddEditGiayBaoTriDuongBoView.cs" />
     <Compile Include="Interfaces\IAddEditGiayDangKiemChiTietView.cs" />
     <Compile Include="Interfaces\IAddEditGiayDangKiemView.cs" />
     <Compile Include="Interfaces\IAddEditGiayDangKyChiTietView.cs" />
@@ -50,6 +59,15 @@
     <Compile Include="Interfaces\IAddEditPhuTungView.cs" />
     <Compile Include="Interfaces\IAddEditVehicleView.cs" />
     <Compile Include="Interfaces\IMainView.cs" />
+    <Compile Include="Presenters\AddEditBienBanGiaoXeChiTietPresenter.cs" />
+    <Compile Include="Presenters\AddEditBienBanGiaoXePresenter.cs" />
+    <Compile Include="Presenters\AddEditBienBanThuHoiPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayBaoHiemNhanSuChiTietPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayBaoHiemNhanSuPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayBaoHiemThanXeChiTietPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayBaoHiemThanXePresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayBaoTriDuongBoChiTietPresenter.cs" />
+    <Compile Include="Presenters\AddEditGiayBaoTriDuongBoPresenter.cs" />
     <Compile Include="Presenters\AddEditGiayDangKiemChiTietPresenter.cs" />
     <Compile Include="Presenters\AddEditGiayDangKiemPresenter.cs" />
     <Compile Include="Presenters\AddEditGiayDangKyChiTietPresenter.cs" />

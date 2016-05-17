@@ -33,7 +33,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VehicleBLL.cs" />
+    <Compile Include="BaseBLL.cs" />
+    <Compile Include="BienBanGiaoXeBLL.cs" />
+    <Compile Include="BienBanThuHoiBLL.cs" />
+    <Compile Include="GiayBaoHiemNhanSuBLL.cs" />
+    <Compile Include="GiayBaoHiemThanXeBLL.cs" />
+    <Compile Include="GiayBaoTriDuongBoBLL.cs" />
+    <Compile Include="GiayDangKiemBLL.cs" />
+    <Compile Include="GiayDangKyBLL.cs" />
+    <Compile Include="PhuTungBLL.cs" />
+    <Compile Include="TaiSanXeBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

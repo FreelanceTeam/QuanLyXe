@@ -18,7 +18,7 @@ namespace VMS.DAL.Entity
         private DateTime _ngay_tao;
         private string _nguoi_tao;
         private string _status;
-        private List<giay_dang_ky_ct> _giayDangKyCTList;
+        private List<giay_dang_ky_ct> _detailList;
 
         public string ma_giay
         {
@@ -98,10 +98,10 @@ namespace VMS.DAL.Entity
             set { _status = value; }
         }
 
-        public List<giay_dang_ky_ct> GiayDangKyCTList
+        public List<giay_dang_ky_ct> DetailList
         {
-            get { return _giayDangKyCTList; }
-            set { _giayDangKyCTList = value; }
+            get { return _detailList; }
+            set { _detailList = value; }
         }
     }
 }
