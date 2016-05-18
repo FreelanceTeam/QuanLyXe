@@ -7,14 +7,14 @@ namespace VMS.UI.Presenters
 {
     public class AddEditGiayBaoHiemNhanSuChiTietPresenter
     {
-        private readonly IAddEditGiayBaoHiemNhanSuChiTietView _addEditGiayBaoHiemNhanSuChiTietView;
+        private readonly IAddEditGiayBaoHiemNhanSuChiTietView _view;
         private readonly GiayBaoHiemNhanSuBLL _contextBLL;
         public bool IsNew = true;
         public giay_bao_hiem_nhan_su_ct CurrentGiayBaoHiemNhanSuChiTiet = null;
         public string MaGiay;
-        public AddEditGiayBaoHiemNhanSuChiTietPresenter(IAddEditGiayBaoHiemNhanSuChiTietView addEditGiayBaoHiemNhanSuChiTietView)
+        public AddEditGiayBaoHiemNhanSuChiTietPresenter(IAddEditGiayBaoHiemNhanSuChiTietView view)
         {
-            _addEditGiayBaoHiemNhanSuChiTietView = addEditGiayBaoHiemNhanSuChiTietView;
+            _view = view;
             _contextBLL = new GiayBaoHiemNhanSuBLL();
         }
 

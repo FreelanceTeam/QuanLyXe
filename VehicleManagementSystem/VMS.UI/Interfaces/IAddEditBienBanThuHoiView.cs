@@ -4,6 +4,6 @@ namespace VMS.UI.Interfaces
 {
     public interface IAddEditBienBanThuHoiView
     {
-		void LoadTaiXe(DataTable dtTaiXe);
+		void LoadTaiXe(DataTable dt);
     }
 }

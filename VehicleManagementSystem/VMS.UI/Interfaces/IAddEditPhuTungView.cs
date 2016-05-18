@@ -4,6 +4,6 @@ namespace VMS.UI.Interfaces
 {
     public interface IAddEditPhuTungView
     {
-        void LoadTaiSanMMTB(DataTable lstTaiSanMMTB);
+        void LoadTaiSanMMTB(DataTable dt);
     }
 }

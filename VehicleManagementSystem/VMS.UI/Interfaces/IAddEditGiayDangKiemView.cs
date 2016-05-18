@@ -4,6 +4,6 @@ namespace VMS.UI.Interfaces
 {
     public interface IAddEditGiayDangKiemView
     {
-        void LoadDonVi(DataTable dtDonVi);
+        void LoadDonVi(DataTable dt);
     }
 }

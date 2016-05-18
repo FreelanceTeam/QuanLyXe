@@ -6,20 +6,20 @@ namespace VMS.UI.Presenters
 {
     public class AddEditGiayDangKiemPresenter
     {
-        private readonly IAddEditGiayDangKiemView _addEditGiayDangKiemView;
+        private readonly IAddEditGiayDangKiemView _view;
         private readonly GiayDangKiemBLL _contextBLL;
         public bool IsNew = true;
         public giay_dang_kiem CurrentGiayDangKiem = null;
         public string MaXe;
-        public AddEditGiayDangKiemPresenter(IAddEditGiayDangKiemView addEditGiayDangKiemView)
+        public AddEditGiayDangKiemPresenter(IAddEditGiayDangKiemView view)
         {
-            _addEditGiayDangKiemView = addEditGiayDangKiemView;
+            _view = view;
             _contextBLL = new GiayDangKiemBLL();
         }
 
         public void LoadDonVi()
         {
-            _addEditGiayDangKiemView.LoadDonVi(_contextBLL.GetDonVi());
+            _view.LoadDonVi(_contextBLL.GetDonVi());
         }
 
         public bool Save(giay_dang_kiem entity)

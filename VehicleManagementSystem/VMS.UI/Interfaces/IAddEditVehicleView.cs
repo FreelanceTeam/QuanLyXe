@@ -4,6 +4,6 @@ namespace VMS.UI.Interfaces
 {
     public interface IAddEditVehicleView
     {
-        void LoadLoaiTaiSanXe(DataTable lstLoaiTaiSan);
+        void LoadLoaiTaiSanXe(DataTable dt);
     }
 }

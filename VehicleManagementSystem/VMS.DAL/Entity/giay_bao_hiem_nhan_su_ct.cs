@@ -13,10 +13,6 @@ namespace VMS.DAL.Entity
         private string _nguoi_cap_nhat;
         private string _trang_thai;
 
-        private string _ngay_cap_str;
-        private string _ngay_het_str;
-        private bool _trang_thai_bool;
-
         public string ma_giay
         {
             get { return _ma_giay; }
@@ -72,12 +68,17 @@ namespace VMS.DAL.Entity
 
         public string ngay_cap_str
         {
-            get { return ngay_cap.ToString("dd/MM/yyyy"); }
+            get { return _ngay_cap.ToString("dd/MM/yyyy"); }
         }
 
         public string ngay_het_han_str
         {
-            get { return ngay_het_han.ToString("dd/MM/yyyy"); }
+            get { return _ngay_het_han.ToString("dd/MM/yyyy"); }
+        }
+
+        public string chi_phi_str
+        {
+            get { return _chi_phi.ToString("N"); }
         }
     }
 }

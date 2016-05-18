@@ -6,20 +6,20 @@ namespace VMS.UI.Presenters
 {
     public class AddEditPhuTungPresenter
     {
-        private readonly IAddEditPhuTungView _addEditPhuTungView;
+        private readonly IAddEditPhuTungView _view;
         private readonly PhuTungBLL _contextBLL;
         public bool IsNew = true;
         public phu_tung CurrentPhuTung = null;
         public string MaXe;
-        public AddEditPhuTungPresenter(IAddEditPhuTungView addEditPhuTungView)
+        public AddEditPhuTungPresenter(IAddEditPhuTungView view)
         {
-            _addEditPhuTungView = addEditPhuTungView;
+            _view = view;
             _contextBLL = new PhuTungBLL();
         }
 
         public void LoadPhuTung()
         {
-            _addEditPhuTungView.LoadTaiSanMMTB(_contextBLL.GetTaiSanMMTB());
+            _view.LoadTaiSanMMTB(_contextBLL.GetTaiSanMMTB());
         }
 
         public bool Save(phu_tung entity)

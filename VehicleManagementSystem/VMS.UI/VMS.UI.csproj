@@ -74,6 +74,18 @@
     <Compile Include="Presenters\AddEditGiayDangKyPresenter.cs" />
     <Compile Include="Presenters\AddEditPhuTungPresenter.cs" />
     <Compile Include="Presenters\AddEditVehiclePresenter.cs" />
+    <Compile Include="Views\AddEditGiayBaoTriDuongBoChiTietView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoTriDuongBoChiTietView.Designer.cs">
+      <DependentUpon>AddEditGiayBaoTriDuongBoChiTietView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoTriDuongBoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoTriDuongBoView.Designer.cs">
+      <DependentUpon>AddEditGiayBaoTriDuongBoView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\AddEditGiayDangKiemChiTietView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +137,14 @@
     <Compile Include="Presenters\MainPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\AddEditGiayBaoTriDuongBoChiTietView.resx">
+      <DependentUpon>AddEditGiayBaoTriDuongBoChiTietView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayBaoTriDuongBoView.resx">
+      <DependentUpon>AddEditGiayBaoTriDuongBoView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\AddEditGiayDangKiemChiTietView.resx">
       <DependentUpon>AddEditGiayDangKiemChiTietView.cs</DependentUpon>
       <SubType>Designer</SubType>

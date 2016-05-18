@@ -32,9 +32,6 @@ namespace VMS.DAL.Entity
         private string _nguoi_tao;
         private string _status;
 
-        private giay_dang_ky _giayDangKy;
-        private giay_dang_kiem _giayDangKiem;
-
         public string ma_xe
         {
             get { return _ma_xe; }
@@ -196,16 +193,54 @@ namespace VMS.DAL.Entity
             set { _status = value; }
         }
 
+        private giay_dang_ky _giayDangKy;
         public giay_dang_ky GiayDangKy
         {
             get { return _giayDangKy; }
             set { _giayDangKy = value; }
         }
 
+        private giay_dang_kiem _giayDangKiem;
         public giay_dang_kiem GiayDangKiem
         {
             get { return _giayDangKiem; }
             set { _giayDangKiem = value; }
+        }
+
+
+        private giay_bao_tri_duong_bo _giayBaoTriDuongBo;
+        public giay_bao_tri_duong_bo GiayBaoTriDuongBo
+        {
+            get { return _giayBaoTriDuongBo; }
+            set { _giayBaoTriDuongBo = value; }
+        }
+
+        private giay_bao_hiem_nhan_su _giayBaoHiemNhanSu;
+        public giay_bao_hiem_nhan_su GiayBaoHiemNhanSu
+        {
+            get { return _giayBaoHiemNhanSu; }
+            set { _giayBaoHiemNhanSu = value; }
+        }
+
+        private giay_bao_hiem_than_xe _giayBaoHiemThanXe;
+        public giay_bao_hiem_than_xe GiayBaoHiemThanXe
+        {
+            get { return _giayBaoHiemThanXe; }
+            set { _giayBaoHiemThanXe = value; }
+        }
+
+        private bien_ban_giao_xe _bienBanGiaoXe;
+        public bien_ban_giao_xe BienBanGiaoXe
+        {
+            get { return _bienBanGiaoXe; }
+            set { _bienBanGiaoXe = value; }
+        }
+
+        private bien_ban_thu_hoi _bienBanThuHoi;
+        public bien_ban_thu_hoi BienBanThuHoi
+        {
+            get { return _bienBanThuHoi; }
+            set { _bienBanThuHoi = value; }
         }
     }
 }

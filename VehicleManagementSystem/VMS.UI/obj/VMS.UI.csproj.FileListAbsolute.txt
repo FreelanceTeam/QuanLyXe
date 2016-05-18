@@ -40,3 +40,7 @@ D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VM
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayDangKiemView.resources
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.ImageViewer.resources
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.ImageViewer.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoTriDuongBoChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoTriDuongBoView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoTriDuongBoChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoTriDuongBoView.resources
