@@ -8,8 +8,6 @@ CREATE PROCEDURE [dbo].[sp_BienBanGiaoXe_Update]
    ,@ghi_chu text 
    ,@ngay_cap_nhat datetime 
    ,@nguoi_cap_nhat nvarchar(50) 
-   ,@ngay_tao datetime 
-   ,@nguoi_tao nvarchar(50) 
    ,@status char(1)
 AS
 BEGIN

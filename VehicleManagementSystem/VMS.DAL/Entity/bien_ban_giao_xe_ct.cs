@@ -44,5 +44,10 @@ namespace VMS.DAL.Entity
             get { return _tinh_trang; }
             set { _tinh_trang = value; }
         }
+
+        public bool tinh_trang_bool
+        {
+            get { return _tinh_trang == 1; }
+        }
     }
 }

@@ -9,8 +9,6 @@ CREATE PROCEDURE [dbo].[sp_BienBanThuHoi_Update]
 	,@ghi_chu nvarchar(100)
 	,@ngay_cap_nhat datetime
 	,@nguoi_cap_nhat nvarchar(50)
-	,@ngay_tao datetime
-	,@nguoi_tao nvarchar(50)
 	,@status char(1)
 AS
 BEGIN
@@ -25,8 +23,6 @@ BEGIN
       ,[ghi_chu] = @ghi_chu
       ,[ngay_cap_nhat] = @ngay_cap_nhat
       ,[nguoi_cap_nhat] = @nguoi_cap_nhat
-      ,[ngay_tao] = @ngay_tao
-      ,[nguoi_tao] = @nguoi_tao
       ,[status] = @status
  WHERE so_bien_ban = @so_bien_ban
 END

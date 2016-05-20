@@ -8,3 +8,13 @@ D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.Helper\bin\Debu
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.Helper\obj\Debug\ResolveAssemblyReference.cache
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.dll
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.pdb
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Release\VMS.Helper.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Release\VMS.Helper.pdb
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Release\ResolveAssemblyReference.cache
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Release\VMS.Helper.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Release\VMS.Helper.pdb
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Debug\VMS.Helper.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Debug\VMS.Helper.pdb
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\ResolveAssemblyReference.cache
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.pdb

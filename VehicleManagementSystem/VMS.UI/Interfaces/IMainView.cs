@@ -17,6 +17,6 @@ namespace VMS.UI.Interfaces
         void LoadGiayBaoHiemNhanSu(giay_bao_hiem_nhan_su entity);
         void LoadGiayBaoHiemThanXe(giay_bao_hiem_than_xe entity);
         void LoadBienBanGiaoXe(bien_ban_giao_xe entity);
-        void LoadBienBanThuHoiDataTable(DataTable dt);
+        void LoadBienBanThuHoi(bien_ban_thu_hoi entity);
     }
 }

@@ -17,7 +17,7 @@ namespace VMS.UI.Presenters
             _contextBLL = new BienBanThuHoiBLL();
         }
 
-        public void LoadDonVi()
+        public void LoadTaiXe()
         {
             _view.LoadTaiXe(_contextBLL.GetTaiXe());
         }

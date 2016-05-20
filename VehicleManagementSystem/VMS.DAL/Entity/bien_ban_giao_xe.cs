@@ -32,6 +32,11 @@ namespace VMS.DAL.Entity
             set { _ngay_bien_ban = value; }
         }
 
+        public string ngay_bien_ban_str
+        {
+            get { return _ngay_bien_ban.ToString("dd/MM/yyyy"); }
+        }
+
         public string ma_xe
         {
             get { return _ma_xe; }
@@ -54,6 +59,11 @@ namespace VMS.DAL.Entity
         {
             get { return _ngay_nhan_xe; }
             set { _ngay_nhan_xe = value; }
+        }
+
+        public string ngay_nhan_xe_str
+        {
+            get { return _ngay_nhan_xe.ToString("dd/MM/yyyy"); }
         }
 
         public decimal so_km_bat_dau
