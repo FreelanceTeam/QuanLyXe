@@ -45,5 +45,14 @@ namespace VMS.DAL
             da.Fill(dt);
             return dt;
         }
+
+        public DataTable GetCCDC()
+        {
+            SqlCommand cmd = DataFactory.CreateCommand("SELECT ma_ccdc, ten_ccdc FROM dm_cong_cu_dung_cu");
+            SqlDataAdapter da = DataFactory.CreateAdapter(cmd);
+            DataTable dt = new DataTable("dm_cong_cu_dung_cu");
+            da.Fill(dt);
+            return dt;
+        }
     }
 }

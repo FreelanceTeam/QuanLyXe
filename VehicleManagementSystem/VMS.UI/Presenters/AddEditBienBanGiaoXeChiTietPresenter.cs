@@ -11,16 +11,21 @@ namespace VMS.UI.Presenters
         private readonly BienBanGiaoXeBLL _contextBLL;
         public bool IsNew = true;
         public bien_ban_giao_xe_ct CurrentBienBanGiaoXeChiTiet = null;
-        public string MaGiay;
+        public string SoBienBan;
         public AddEditBienBanGiaoXeChiTietPresenter(IAddEditBienBanGiaoXeChiTietView view)
         {
             _view = view;
             _contextBLL = new BienBanGiaoXeBLL();
         }
 
-        public bool Save(bien_ban_giao_xe_ct gdk)
+        public void LoadCCDC()
         {
-            return _contextBLL.SaveDetail(gdk, IsNew);
+            _view.LoadCCDC(_contextBLL.GetCCDC());
+        }
+
+        public bool Save(bien_ban_giao_xe_ct entity)
+        {
+            return _contextBLL.SaveDetail(entity, IsNew);
         }
 
         public bool CheckIfExisted(string so_bien_ban, string ma_ccdc)

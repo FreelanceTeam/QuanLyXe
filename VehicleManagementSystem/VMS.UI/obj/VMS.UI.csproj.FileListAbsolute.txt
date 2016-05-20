@@ -44,3 +44,13 @@ D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoTriDuongBoView.resources
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoTriDuongBoChiTietView.resources
 D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoTriDuongBoView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoHiemNhanSuChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoHiemNhanSuView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoHiemThanXeChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditGiayBaoHiemThanXeView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoHiemNhanSuChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoHiemNhanSuView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoHiemThanXeChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditGiayBaoHiemThanXeView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditBienBanGiaoXeChiTietView.resources
+D:\Clouds\OneDrive\Projects\Work\VMS\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditBienBanGiaoXeView.resources

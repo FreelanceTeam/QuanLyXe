@@ -74,6 +74,42 @@
     <Compile Include="Presenters\AddEditGiayDangKyPresenter.cs" />
     <Compile Include="Presenters\AddEditPhuTungPresenter.cs" />
     <Compile Include="Presenters\AddEditVehiclePresenter.cs" />
+    <Compile Include="Views\AddEditBienBanGiaoXeChiTietView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditBienBanGiaoXeChiTietView.Designer.cs">
+      <DependentUpon>AddEditBienBanGiaoXeChiTietView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditBienBanGiaoXeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditBienBanGiaoXeView.Designer.cs">
+      <DependentUpon>AddEditBienBanGiaoXeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemNhanSuChiTietView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemNhanSuChiTietView.Designer.cs">
+      <DependentUpon>AddEditGiayBaoHiemNhanSuChiTietView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemNhanSuView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemNhanSuView.Designer.cs">
+      <DependentUpon>AddEditGiayBaoHiemNhanSuView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemThanXeChiTietView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemThanXeChiTietView.Designer.cs">
+      <DependentUpon>AddEditGiayBaoHiemThanXeChiTietView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemThanXeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddEditGiayBaoHiemThanXeView.Designer.cs">
+      <DependentUpon>AddEditGiayBaoHiemThanXeView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\AddEditGiayBaoTriDuongBoChiTietView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +173,30 @@
     <Compile Include="Presenters\MainPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\AddEditBienBanGiaoXeChiTietView.resx">
+      <DependentUpon>AddEditBienBanGiaoXeChiTietView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditBienBanGiaoXeView.resx">
+      <DependentUpon>AddEditBienBanGiaoXeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayBaoHiemNhanSuChiTietView.resx">
+      <DependentUpon>AddEditGiayBaoHiemNhanSuChiTietView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayBaoHiemNhanSuView.resx">
+      <DependentUpon>AddEditGiayBaoHiemNhanSuView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayBaoHiemThanXeChiTietView.resx">
+      <DependentUpon>AddEditGiayBaoHiemThanXeChiTietView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddEditGiayBaoHiemThanXeView.resx">
+      <DependentUpon>AddEditGiayBaoHiemThanXeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\AddEditGiayBaoTriDuongBoChiTietView.resx">
       <DependentUpon>AddEditGiayBaoTriDuongBoChiTietView.cs</DependentUpon>
       <SubType>Designer</SubType>

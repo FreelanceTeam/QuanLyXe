@@ -31,5 +31,10 @@ namespace VMS.BLL
         {
             return _baseData.GetTaiXe();
         }
+
+        public DataTable GetCCDC()
+        {
+            return _baseData.GetCCDC();
+        }
     }
 }
