@@ -4,7 +4,7 @@ CREATE PROCEDURE [dbo].[sp_BienBanGiaoXe_Insert]
    ,@ma_xe varchar(32) 
    ,@ma_tai_xe nvarchar(50) 
    ,@ngay_nhan_xe smalldatetime 
-   ,@so_km_bat_dau numeric(4,0) 
+   ,@so_km_bat_dau numeric(18,0) 
    ,@ghi_chu text 
    ,@ngay_cap_nhat datetime 
    ,@nguoi_cap_nhat nvarchar(50) 

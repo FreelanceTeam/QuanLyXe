@@ -114,3 +114,5 @@ D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Deb
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.pdb
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditBienBanThuHoiView.resources
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditBienBanThuHoiView.resources
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.HistoryBienBanGiaoXeView.resources
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.HistoryBienBanGiaoXeView.resources

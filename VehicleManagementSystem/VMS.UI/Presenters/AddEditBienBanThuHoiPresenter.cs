@@ -27,9 +27,9 @@ namespace VMS.UI.Presenters
             return _contextBLL.Save(entity, IsNew);
         }
 
-        public bool CheckIfExisted(string ma_giay)
+        public bool CheckIfExisted(string so_bien_ban)
         {
-            return _contextBLL.HasExisted(ma_giay);
+            return _contextBLL.HasExisted(so_bien_ban);
         }
     }
 }

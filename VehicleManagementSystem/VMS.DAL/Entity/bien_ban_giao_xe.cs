@@ -19,6 +19,7 @@ namespace VMS.DAL.Entity
         private string _nguoi_tao;
         private string _status;
         private List<bien_ban_giao_xe_ct> _detailList;
+        private bool _isHistory = false;
 
         public string so_bien_ban
         {
@@ -108,10 +109,21 @@ namespace VMS.DAL.Entity
             set { _status = value; }
         }
 
+        public bool status_bool
+        {
+            get { return _status == "1"; }
+        }
+
         public List<bien_ban_giao_xe_ct> DetailList
         {
             get { return _detailList; }
             set { _detailList = value; }
+        }
+
+        public bool IsHistory
+        {
+            get { return _isHistory; }
+            set { _isHistory = value; }
         }
     }
 }

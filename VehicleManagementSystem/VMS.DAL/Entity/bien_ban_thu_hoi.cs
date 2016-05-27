@@ -112,5 +112,10 @@ namespace VMS.DAL.Entity
             get { return _status; }
             set { _status = value; }
         }
+
+        public bool status_bool
+        {
+            get { return _status == "1"; }
+        }
     }
 }

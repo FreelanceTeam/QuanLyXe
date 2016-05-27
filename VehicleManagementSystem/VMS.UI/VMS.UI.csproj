@@ -58,6 +58,7 @@
     <Compile Include="Interfaces\IAddEditGiayDangKyView.cs" />
     <Compile Include="Interfaces\IAddEditPhuTungView.cs" />
     <Compile Include="Interfaces\IAddEditVehicleView.cs" />
+    <Compile Include="Interfaces\IHistoryBienBanGiaoXeView.cs" />
     <Compile Include="Interfaces\IMainView.cs" />
     <Compile Include="Presenters\AddEditBienBanGiaoXeChiTietPresenter.cs" />
     <Compile Include="Presenters\AddEditBienBanGiaoXePresenter.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Presenters\AddEditGiayDangKyPresenter.cs" />
     <Compile Include="Presenters\AddEditPhuTungPresenter.cs" />
     <Compile Include="Presenters\AddEditVehiclePresenter.cs" />
+    <Compile Include="Presenters\HistoryBienBanGiaoXePresenter.cs" />
     <Compile Include="Views\AddEditBienBanGiaoXeChiTietView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +166,12 @@
     <Compile Include="Views\AddEditVehicleView.Designer.cs">
       <DependentUpon>AddEditVehicleView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\HistoryBienBanGiaoXeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HistoryBienBanGiaoXeView.Designer.cs">
+      <DependentUpon>HistoryBienBanGiaoXeView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\ImageViewer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,6 +247,10 @@
       <SubType>Designer</SubType>
       <DependentUpon>AddEditVehicleView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\HistoryBienBanGiaoXeView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HistoryBienBanGiaoXeView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\ImageViewer.resx">
       <SubType>Designer</SubType>
       <DependentUpon>ImageViewer.cs</DependentUpon>
@@ -304,6 +316,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add-disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

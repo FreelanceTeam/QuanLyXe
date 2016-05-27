@@ -4,7 +4,7 @@ CREATE PROCEDURE [dbo].[sp_BienBanThuHoi_Update]
 	,@ma_xe nchar(32)
 	,@ma_tai_xe nchar(32)
 	,@ngay_ket_thuc smalldatetime
-	,@so_km_ket_thuc numeric(4,0)
+	,@so_km_ket_thuc numeric(18,0)
 	,@ly_do_thu_hoi nvarchar(100)
 	,@ghi_chu nvarchar(100)
 	,@ngay_cap_nhat datetime
