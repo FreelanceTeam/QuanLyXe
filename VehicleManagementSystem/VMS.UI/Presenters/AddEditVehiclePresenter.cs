@@ -31,5 +31,20 @@ namespace VMS.UI.Presenters
             return _contextBLL.HasExisted(ma_xe);
         }
 
+        public void LoadHangXe()
+        {
+            _view.LoadHangXe(_contextBLL.GetHangXe());
+        }
+
+        public void LoadLoaiXe()
+        {
+            _view.LoadLoaiXe(_contextBLL.GetLoaiXe());
+        }
+
+        public void LoadMauXe()
+        {
+            _view.LoadMauXe(_contextBLL.GetMauXe());
+        }
+
     }
 }
