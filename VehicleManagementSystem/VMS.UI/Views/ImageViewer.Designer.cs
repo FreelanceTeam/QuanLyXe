@@ -37,7 +37,7 @@ namespace VMS.UI.Views
             this.picHinhAnh.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picHinhAnh.Location = new System.Drawing.Point(0, 0);
             this.picHinhAnh.Name = "picHinhAnh";
-            this.picHinhAnh.Size = new System.Drawing.Size(1018, 728);
+            this.picHinhAnh.Size = new System.Drawing.Size(978, 1050);
             this.picHinhAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picHinhAnh.TabIndex = 0;
             this.picHinhAnh.TabStop = false;
@@ -46,7 +46,7 @@ namespace VMS.UI.Views
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 728);
+            this.ClientSize = new System.Drawing.Size(978, 1050);
             this.Controls.Add(this.picHinhAnh);
             this.KeyPreview = true;
             this.MinimizeBox = false;
