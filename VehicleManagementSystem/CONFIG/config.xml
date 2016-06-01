@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tv_config>
+  <server_url>http://192.168.1.35:8080/ht_customer/client-gate</server_url>
+  <local_url>http://localhost:8080/ht_customer/client-gate</local_url>
+  <db_source_local>688ca0bef162b19c3565775c11d7aee7</db_source_local>
+  <db_source_remote>688ca0bef162b19c3565775c11d7aee7</db_source_remote>
+  <db_source>688ca0bef162b19c3565775c11d7aee7</db_source>
+  <db_name>c905d5d48edd7e0b</db_name>
+  <db_user>7e4c7412afaed604</db_user>
+  <db_password>927dec99d173dbb6d129bd68183ff925</db_password>
+  <local>true</local>
+  <head_stock>true</head_stock>
+  <user>434af9efdf6be428</user>
+  <login_time>2012-12-12 21:28:1</login_time>
+  <work_time>24/05/2016</work_time>
+  <dvcs_code>001</dvcs_code>
+  <db_sync>false</db_sync>
+  <rm_access>false</rm_access>
+  <server_time>2016-04-05 21:28:1</server_time>
+</tv_config>

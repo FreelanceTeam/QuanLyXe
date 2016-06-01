@@ -18,3 +18,13 @@ D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\ResolveAssemblyReference.cache
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.dll
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.pdb
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Debug\VMS.Helper.dll
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Debug\VMS.Helper.pdb
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.dll
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Debug\VMS.Helper.pdb
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Release\VMS.Helper.dll
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\bin\Release\VMS.Helper.pdb
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Release\ResolveAssemblyReference.cache
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Release\VMS.Helper.dll
+C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.Helper\obj\Release\VMS.Helper.pdb
