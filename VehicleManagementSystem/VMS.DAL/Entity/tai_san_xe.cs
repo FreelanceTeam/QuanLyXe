@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace VMS.DAL.Entity
 {
@@ -241,6 +242,13 @@ namespace VMS.DAL.Entity
         {
             get { return _bienBanThuHoi; }
             set { _bienBanThuHoi = value; }
+        }
+
+        private List<dm_nhan_vien> _taiXeList;
+        public List<dm_nhan_vien> TaiXeList
+        {
+            get { return _taiXeList; }
+            set { _taiXeList = value; }
         }
     }
 }

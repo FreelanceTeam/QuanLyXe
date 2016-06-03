@@ -46,3 +46,9 @@ C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.DAL\o
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.DAL\obj\Release\VMS.DAL.pdb
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Release\HTCryptLib.dll
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Debug\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Release\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Release\tv.ClientManager.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Release\tv.clsSQL.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Debug\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Debug\tv.ClientManager.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.DAL\bin\Debug\tv.clsSQL.dll

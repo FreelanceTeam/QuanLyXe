@@ -182,3 +182,7 @@ C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.UI\ob
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.csproj.GenerateResource.Cache
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Release\HTCryptLib.dll
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Debug\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Release\tv.ClientManager.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Release\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Debug\tv.ClientManager.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Debug\HTCryptLib.dll

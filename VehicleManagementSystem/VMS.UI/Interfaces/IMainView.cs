@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Data;
-using System.Drawing;
 using System.Windows.Forms;
 using VMS.DAL.Entity;
 
@@ -19,5 +18,6 @@ namespace VMS.UI.Interfaces
         void LoadGiayBaoHiemThanXe(giay_bao_hiem_than_xe entity);
         void LoadBienBanGiaoXe(bien_ban_giao_xe entity);
         void LoadBienBanThuHoi(List<bien_ban_thu_hoi> list);
+        void LoadTaiXe(List<dm_nhan_vien> list);
     }
 }

@@ -7,7 +7,7 @@ namespace VMS.DAL.Entity
         private string _ten_tai_san;
         private byte _so_luong;
         private decimal _so_km_da_su_dung;
-        private byte _tinh_trang;
+        private byte _trang_thai;
 
         public string ma_xe
         {
@@ -39,15 +39,15 @@ namespace VMS.DAL.Entity
             set { _so_km_da_su_dung = value; }
         }
 
-        public byte tinh_trang
+        public byte trang_thai
         {
-            get { return _tinh_trang; }
-            set { _tinh_trang = value; }
+            get { return _trang_thai; }
+            set { _trang_thai = value; }
         }
 
-        public bool tinh_trang_bool
+        public bool trang_thai_bool
         {
-            get { return _tinh_trang == 1; }
+            get { return _trang_thai == 1; }
         }
     }
 }

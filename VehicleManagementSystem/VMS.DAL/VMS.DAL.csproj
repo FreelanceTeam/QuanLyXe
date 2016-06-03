@@ -64,6 +64,7 @@
     <Compile Include="Entity\bien_ban_giao_xe_ct.cs" />
     <Compile Include="Entity\bien_ban_thu_hoi.cs" />
     <Compile Include="Entity\dm_loai_tai_san.cs" />
+    <Compile Include="Entity\dm_nhan_vien.cs" />
     <Compile Include="Entity\giay_bao_hiem_nhan_su.cs" />
     <Compile Include="Entity\giay_bao_hiem_nhan_su_ct.cs" />
     <Compile Include="Entity\giay_bao_hiem_than_xe.cs" />

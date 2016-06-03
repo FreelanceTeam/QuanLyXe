@@ -56,3 +56,7 @@ C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.BLL\o
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.BLL\obj\Release\VMS.BLL.pdb
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.BLL\bin\Release\HTCryptLib.dll
 C:\Users\trquanglong\Documents\GitHub\QuanLyXe\VehicleManagementSystem\VMS.BLL\bin\Debug\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.BLL\bin\Release\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.BLL\bin\Release\tv.ClientManager.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.BLL\bin\Debug\HTCryptLib.dll
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.BLL\bin\Debug\tv.ClientManager.dll
