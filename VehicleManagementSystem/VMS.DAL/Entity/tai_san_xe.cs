@@ -244,8 +244,8 @@ namespace VMS.DAL.Entity
             set { _bienBanThuHoi = value; }
         }
 
-        private List<dm_nhan_vien> _taiXeList;
-        public List<dm_nhan_vien> TaiXeList
+        private List<lich_su_tai_xe> _taiXeList;
+        public List<lich_su_tai_xe> TaiXeList
         {
             get { return _taiXeList; }
             set { _taiXeList = value; }

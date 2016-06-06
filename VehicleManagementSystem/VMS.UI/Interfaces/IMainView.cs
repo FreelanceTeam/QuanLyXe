@@ -18,6 +18,6 @@ namespace VMS.UI.Interfaces
         void LoadGiayBaoHiemThanXe(giay_bao_hiem_than_xe entity);
         void LoadBienBanGiaoXe(bien_ban_giao_xe entity);
         void LoadBienBanThuHoi(List<bien_ban_thu_hoi> list);
-        void LoadTaiXe(List<dm_nhan_vien> list);
+        void LoadLichSuTaiXe(List<lich_su_tai_xe> list);
     }
 }
