@@ -1,4 +1,4 @@
-CREATE PROCEDURE [dbo].[sp_PhuTung_Update]
+ALTER PROCEDURE [dbo].[sp_PhuTung_Update]
 	@ma_xe nchar(32)
 	,@ma_tai_san nchar(32)
 	,@so_luong tinyint

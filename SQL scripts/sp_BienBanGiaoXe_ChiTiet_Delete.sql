@@ -1,4 +1,4 @@
-CREATE PROCEDURE [dbo].[sp_BienBanGiaoXe_ChiTiet_Delete]
+ALTER PROCEDURE [dbo].[sp_BienBanGiaoXe_ChiTiet_Delete]
 	@so_bien_ban nchar(32)
    ,@ma_ccdc nchar(32)
 AS
