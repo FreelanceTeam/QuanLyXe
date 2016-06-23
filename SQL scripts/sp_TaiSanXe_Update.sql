@@ -15,6 +15,7 @@ CREATE PROCEDURE [dbo].[sp_TaiSanXe_Update]
 	,@trong_tai_khoi_luong numeric(18,0)
 	,@tong_trong_luong numeric(18,0)
 	,@nguyen_gia numeric(18,0)
+	,@ngay_hieu_luc_kh datetime
 	,@gia_tri_khau_hao numeric(18,0)
 	,@ti_le_khau_hao numeric(16,2)
 	,@gia_tri_con_lai numeric(18,0)
@@ -26,6 +27,29 @@ CREATE PROCEDURE [dbo].[sp_TaiSanXe_Update]
 AS
 BEGIN
 	SET NOCOUNT OFF;
+	
+	IF @ti_le_khau_hao > 0
+	BEGIN
+		DECLARE @gia_tri_trich_kh_nam NUMERIC(18,0)
+		
+		DELETE dbo.x_lich_su_khau_hao WHERE [ma_xe] = @ma_xe AND [status] = 'I'
+		SET @gia_tri_trich_kh_nam = @gia_tri_khau_hao*@ti_le_khau_hao/100
+		EXEC dbo.sp_LichSuKhauHao_Insert @ma_xe
+								  ,@ngay_hieu_luc_kh
+								  ,@gia_tri_khau_hao
+								  ,@ti_le_khau_hao
+								  ,@gia_tri_con_lai
+								  ,@gia_tri_trich_kh_nam
+								  ,0
+								  ,0
+								  ,''
+								  ,@ngay_cap_nhat
+								  ,@nguoi_cap_nhat
+								  ,@ngay_tao
+								  ,@nguoi_tao
+								  ,'I'
+	END
+	
 	UPDATE [dbo].[tai_san_xe]
 		SET [bien_so] = @bien_so
 		,[hang_san_xuat] = @hang_san_xuat
@@ -42,6 +66,7 @@ BEGIN
 		,[trong_tai_khoi_luong] = @trong_tai_khoi_luong
 		,[tong_trong_luong] = @tong_trong_luong
 		,[nguyen_gia] = @nguyen_gia
+		,[ngay_hieu_luc_kh] = @ngay_hieu_luc_kh
 		,[gia_tri_khau_hao] = @gia_tri_khau_hao
 		,[ti_le_khau_hao] = @ti_le_khau_hao
 		,[gia_tri_con_lai] = @gia_tri_con_lai

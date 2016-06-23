@@ -19,5 +19,6 @@ namespace VMS.UI.Interfaces
         void LoadBienBanGiaoXe(bien_ban_giao_xe entity);
         void LoadBienBanThuHoi(List<bien_ban_thu_hoi> list);
         void LoadLichSuTaiXe(List<lich_su_tai_xe> list);
+        void LoadLichSuKhauHao(List<lich_su_khau_hao> list, lich_su_khau_hao current);
     }
 }

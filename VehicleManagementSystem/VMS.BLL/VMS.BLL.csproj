@@ -43,6 +43,7 @@
     <Compile Include="GiayBaoTriDuongBoBLL.cs" />
     <Compile Include="GiayDangKiemBLL.cs" />
     <Compile Include="GiayDangKyBLL.cs" />
+    <Compile Include="LichSuKhauHaoBLL.cs" />
     <Compile Include="LichSuTaiXeBLL.cs" />
     <Compile Include="PhuTungBLL.cs" />
     <Compile Include="TaiSanXeBLL.cs" />

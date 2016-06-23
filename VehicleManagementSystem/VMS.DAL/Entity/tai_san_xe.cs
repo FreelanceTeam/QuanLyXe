@@ -22,6 +22,7 @@ namespace VMS.DAL.Entity
         private decimal _trong_tai_khoi_luong;
         private decimal _tong_trong_luong;
         private decimal _nguyen_gia;
+        private DateTime _ngay_hieu_luc_kh;
         private decimal _gia_tri_khau_hao;
         private decimal _ti_le_khau_hao;
         private decimal _gia_tri_con_lai;
@@ -132,6 +133,17 @@ namespace VMS.DAL.Entity
         {
             get { return _nguyen_gia; }
             set { _nguyen_gia = value; }
+        }
+
+        public DateTime ngay_hieu_luc_kh
+        {
+            get { return _ngay_hieu_luc_kh; }
+            set { _ngay_hieu_luc_kh = value; }
+        }
+
+        public string ngay_hieu_luc_kh_str
+        {
+            get { return _ngay_hieu_luc_kh.ToString("dd/MM/yyyy"); }
         }
 
         public decimal gia_tri_khau_hao
@@ -249,6 +261,13 @@ namespace VMS.DAL.Entity
         {
             get { return _taiXeList; }
             set { _taiXeList = value; }
+        }
+
+        private List<lich_su_khau_hao> _khauHaoList;
+        public List<lich_su_khau_hao> LichSuKhauHaoList
+        {
+            get { return _khauHaoList; }
+            set { _khauHaoList = value; }
         }
     }
 }

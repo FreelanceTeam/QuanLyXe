@@ -73,6 +73,7 @@
     <Compile Include="Entity\giay_dang_kiem_ct.cs" />
     <Compile Include="Entity\giay_dang_ky.cs" />
     <Compile Include="Entity\giay_dang_ky_ct.cs" />
+    <Compile Include="Entity\lich_su_khau_hao.cs" />
     <Compile Include="Entity\lich_su_tai_xe.cs" />
     <Compile Include="Entity\phu_tung.cs" />
     <Compile Include="Entity\tai_san_mmtb.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="GiayBaoTriDuongBoData.cs" />
     <Compile Include="GiayDangKiemData.cs" />
     <Compile Include="GiayDangKyData.cs" />
+    <Compile Include="LichSuKhauHaoData.cs" />
     <Compile Include="LichSuTaiXeData.cs" />
     <Compile Include="PhuTungData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

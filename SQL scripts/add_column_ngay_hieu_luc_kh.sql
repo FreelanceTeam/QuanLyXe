@@ -1,0 +1,1 @@
+ALTER TABLE dbo.tai_san_xe ADD ngay_hieu_luc_kh smalldatetime NULL;  
