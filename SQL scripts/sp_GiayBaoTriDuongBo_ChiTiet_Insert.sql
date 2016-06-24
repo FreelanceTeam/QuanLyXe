@@ -15,7 +15,7 @@ BEGIN
 		UPDATE [dbo].[x_giay_bao_tri_duong_bo] SET [ngay_cap_lan_dau] = @ngay_cap WHERE ma_giay = @ma_giay
 	
 	IF(EXISTS(SELECT ma_giay FROM [dbo].[x_giay_bao_tri_duong_bo_ct] WHERE ma_giay = @ma_giay AND ngay_het_han < getdate()))
-		UPDATE [dbo].[x_giay_bao_tri_duong_bo_ct] SET @trang_thai = '0' WHERE ma_giay = @ma_giay AND ngay_het_han < getdate()
+		UPDATE [dbo].[x_giay_bao_tri_duong_bo_ct] SET @trang_thai = 'N' WHERE ma_giay = @ma_giay AND ngay_het_han < getdate()
 
 	INSERT INTO [dbo].[x_giay_bao_tri_duong_bo_ct]
 		([ma_giay]

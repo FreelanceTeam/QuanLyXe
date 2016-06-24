@@ -188,3 +188,5 @@ D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Deb
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\bin\Debug\HTCryptLib.dll
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditLichSuTaiXeView.resources
 D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditLichSuTaiXeView.resources
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Release\VMS.UI.Views.AddEditLichSuKhauHaoView.resources
+D:\Clouds\OneDrive\Projects\Work\QuanLyXe\VehicleManagementSystem\VMS.UI\obj\Debug\VMS.UI.Views.AddEditLichSuKhauHaoView.resources

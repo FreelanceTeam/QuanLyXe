@@ -36,5 +36,10 @@ namespace VMS.BLL
         {
             return _baseData.GetCCDC();
         }
+
+        public string GetThongTinTaiSanXe()
+        {
+            return _baseData.GetThongTinTaiSanXe();
+        }
     }
 }

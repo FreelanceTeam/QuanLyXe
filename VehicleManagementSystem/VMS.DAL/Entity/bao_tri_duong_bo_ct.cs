@@ -63,7 +63,7 @@ namespace VMS.DAL.Entity
 
         public bool trang_thai_bool
         {
-            get { return _trang_thai == "1"; }
+            get { return _trang_thai == "Y"; }
         }
 
         public string ngay_cap_str

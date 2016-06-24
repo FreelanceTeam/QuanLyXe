@@ -111,7 +111,7 @@ namespace VMS.DAL.Entity
 
         public bool status_bool
         {
-            get { return _status == "1"; }
+            get { return _status == "Y"; }
         }
 
         public List<bien_ban_giao_xe_ct> DetailList
