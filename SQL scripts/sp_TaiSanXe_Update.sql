@@ -23,6 +23,8 @@ CREATE PROCEDURE [dbo].[sp_TaiSanXe_Update]
 	,@ghi_chu nvarchar(200)
 	,@ngay_cap_nhat datetime
 	,@nguoi_cap_nhat nvarchar(50)
+	,@ngay_tao datetime
+	,@nguoi_tao nvarchar(50)
 	,@status char(1)
 AS
 BEGIN
